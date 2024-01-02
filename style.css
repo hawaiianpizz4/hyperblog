@@ -60,6 +60,6 @@ footer p {
 
 /* Efecto al pasar el ratón sobre el footer */
 footer:hover {
-  background-color: #111; /* Cambia el color de fondo al pasar el ratón por encima */
+  background-color: green; /* Cambia el color de fondo al pasar el ratón por encima */
   transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
 }

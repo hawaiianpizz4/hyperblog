@@ -53,10 +53,6 @@ article p {
   color: #444; /* Cambia el color del texto del artículo */
 }
 
-footer {
-  background-color: #222; /* Cambia el color de fondo del pie de página */
-  color: #fff; /* Cambia el color del texto del pie de página */
-}
 
 /* Estilos para la clase .cabecera */
 .cabecera {
@@ -74,6 +70,22 @@ footer {
   margin-bottom: 10px; /* Añade un margen en la parte inferior del título */
 }
 
-.cabecera p {
-  font-size: 18px; /* Ajusta el tamaño de la fuente del párrafo */
+/* Estilos para el footer */
+footer {
+  background-color: #222; /* Cambia el color de fondo del pie de página */
+  color: #fff; /* Cambia el color del texto del pie de página */
+  padding: 30px; /* Agrega espacio interno al footer */
+  text-align: center; /* Centra el contenido del footer */
+  font-size: 18px; /* Ajusta el tamaño de la fuente */
+  line-height: 1.5; /* Ajusta la altura de línea para centrar verticalmente */
+}
+
+footer p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+
+/* Efecto al pasar el ratón sobre el footer */
+footer:hover {
+  background-color: #111; /* Cambia el color de fondo al pasar el ratón por encima */
+  transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
 }

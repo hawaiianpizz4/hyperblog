@@ -53,7 +53,6 @@ article p {
   color: #444; /* Cambia el color del texto del artículo */
 }
 
-
 /* Estilos para la clase .cabecera */
 .cabecera {
   background-color: #67b26f; /* Cambia el color de fondo de la cabecera */
@@ -69,6 +68,7 @@ article p {
   font-size: 36px; /* Ajusta el tamaño de la fuente del título de la cabecera */
   margin-bottom: 10px; /* Añade un margen en la parte inferior del título */
 }
+
 
 /* Estilos para el footer */
 footer {
@@ -86,6 +86,6 @@ footer p {
 
 /* Efecto al pasar el ratón sobre el footer */
 footer:hover {
-  background-color: #111; /* Cambia el color de fondo al pasar el ratón por encima */
+  background-color: green; /* Cambia el color de fondo al pasar el ratón por encima */
   transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
 }

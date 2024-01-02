@@ -9,9 +9,35 @@ header {
   color: #fff; /* Cambia el color del texto del encabezado */
 }
 
-nav ul li a {
-  color: #eee; /* Cambia el color de los enlaces del menú */
+/* Estilos para el menú de navegación */
+nav {
+  background-color: #444; /* Cambia el color de fondo del menú */
+  color: #fff; /* Cambia el color del texto del menú */
 }
+
+.menu {
+  list-style: none; /* Elimina los estilos de lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+  display: flex; /* Utiliza flexbox para alinear los elementos en línea */
+  justify-content: space-around; /* Distribuye uniformemente los elementos */
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #fff; /* Cambia el color del texto de los enlaces */
+  padding: 10px 20px; /* Añade espacio interno a los enlaces */
+  transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
+}
+
+.menu a:hover {
+  background-color: #666; /* Cambia el color de fondo al pasar el ratón por encima */
+  border-radius: 5px; /* Añade bordes redondeados al hacer hover */
+}
+
 
 article {
   background-color: #fafafa; /* Cambia el color de fondo del área del artículo */
@@ -35,15 +61,19 @@ footer {
 /* Estilos para la clase .cabecera */
 .cabecera {
   background-color: #67b26f; /* Cambia el color de fondo de la cabecera */
-  padding: 20px; /* Agrega espacio interno a la cabecera */
+  padding: 40px 20px; /* Ajusta el espacio interno de la cabecera */
   text-align: center; /* Centra el texto dentro de la cabecera */
   margin-bottom: 20px; /* Añade un margen en la parte inferior de la cabecera */
   border-radius: 8px; /* Añade bordes redondeados a la cabecera */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añade sombra a la cabecera */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra más pronunciada */
   color: #fff; /* Cambia el color del texto dentro de la cabecera */
 }
 
 .cabecera h1 {
-  font-size: 28px; /* Ajusta el tamaño de la fuente del título de la cabecera */
+  font-size: 36px; /* Ajusta el tamaño de la fuente del título de la cabecera */
   margin-bottom: 10px; /* Añade un margen en la parte inferior del título */
+}
+
+.cabecera p {
+  font-size: 18px; /* Ajusta el tamaño de la fuente del párrafo */
 }

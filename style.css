@@ -27,10 +27,7 @@ article p {
   color: #444; /* Cambia el color del texto del artículo */
 }
 
-footer {
-  background-color: #222; /* Cambia el color de fondo del pie de página */
-  color: #fff; /* Cambia el color del texto del pie de página */
-}
+
 
 /* Estilos para la clase .cabecera */
 .cabecera {
@@ -47,3 +44,5 @@ footer {
   font-size: 28px; /* Ajusta el tamaño de la fuente del título de la cabecera */
   margin-bottom: 10px; /* Añade un margen en la parte inferior del título */
 }
+
+
